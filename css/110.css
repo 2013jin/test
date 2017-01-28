@@ -1,0 +1,296 @@
+@media (max-width: 1200px) {
+    #header .mobile {
+        margin: 0 auto;
+        text-align: center;
+        width: 100%;
+    }
+    #header .mobile-logo {
+        margin: 0 auto;
+        width: 100%;
+    }
+    #feature-record .mobile {
+        width: 100%;
+    }
+    #feature-record .mobile  .mobile-left{
+        float: left;
+    }
+    #feature-record .mobile  .mobile-right{
+        float: right;
+    }
+    #products {
+        background-color: #ccc;
+        padding-top: 20px;
+        padding-bottom: 130px;
+    }
+    #products>.container>div {
+        margin-top: 0!important;
+    }
+    #products .products-left {
+        float: left;
+        background: url("")!important;
+        background-color: #fff!important;
+        height: 80px!important;
+        line-height: 80px;
+        border-radius: 5px;
+        border-left: 5px solid #0C6493;
+        margin-top: 15px;
+        width: 100%!important;
+    }
+    #products>.container .products-left>h3{
+        float: left!important;
+        width: auto;
+        background-color: #fff;
+        padding-top: 0;
+        padding-left: 20px;
+        height: 80px;
+        line-height: 80px;
+        font-weight: 800;
+        font-size: 26px;
+        color: #7CC6F9!important;
+    }
+    #products>.container .products-left>.tag {
+        float: left!important;
+        background-color: #fff!important;
+        width: auto;
+        margin: 0 10px;
+        color: #000;
+        font-size: 18px;
+        height: 80px;
+        line-height: 80px;
+        border-radius: 0;
+    }
+    #products>.container .products-left>.tail {
+        display: block;
+        float: right!important;
+        width: auto;
+        margin: 0;
+        height: 80px;
+        line-height: 80px;
+    }
+    #products>.container .products-left>.tail>.tail-left{
+        display: inline-block;
+        margin: 0 10px;
+        float: left;
+        color: #000;
+        font-weight: 800;
+        font-size: 26px;
+    }
+    #products>.container .products-left>.tail>.tail-right{
+        display: inline-block;
+        margin: 0 10px;
+        float: right;
+        color: #000;
+        font-weight: 800;
+        font-size: 26px;
+    }
+    #products>.container .products-right {
+        background-color: #ccc;
+        height: auto;
+        border-top: none!important;
+        width: 100%;
+    }
+    #products>.container .products-right>.item {
+        width: 100%;
+        margin-top: 15px;
+        height: 160px;
+    }
+    #products>.container .products-right>.item>a {
+        width: 100%;
+    }
+    #products>.container .products-right>.item>a>.name>.lable {
+        float: none;
+    }
+    #products>.container .products-right>.item>a>.top {
+        float: left;
+        width: 50%;
+        position: relative;
+    }
+    #products>.container .products-right .item-top {
+        overflow: inherit;
+        width: 50%;
+        background-color: red;
+    }
+    #products>.container .products-right .item-top li {
+        width: 50%!important;
+        position: relative;
+    }
+    #products>.container .products-right .item .item-bottom li {
+        float: left;
+        width: 25%!important;
+        margin: 20px 0;
+        position: relative;
+    }
+    #products>.container .products-right .item .item-top span {
+        position: absolute;
+        top: 5px;
+        left: 50%;
+        transform: translate(-50%, 0);
+    }
+    #products>.container .products-right .item .item-top span:last-child {
+        top: -5px;
+        left: 50%;
+        transform: translate(-50%, 0);
+    }
+    #products>.container .products-right .item .item-top p {
+        position: absolute;
+        top: 20px;
+        left: 50%;
+        transform: translate(-50%, 0);
+    }
+    #products>.container .products-right .item .item-top li:first-child p {
+        top: 30px;
+        left: 50%;
+        transform: translate(-50%, 0);
+        width: 100%;
+    }
+    #products>.container .products-right>.item>a>.item-bottom {
+        float: left;
+        width: 50%;
+        height: 100px;
+    }
+    #products>.container .products-right .item>a>.item-bottom li {
+        float: left;
+        width: 50%!important;
+        margin: 20px auto;
+    }
+    #products>.container .products-right>.item>a dt {
+        position: absolute;
+        top: 30px;
+        left: 50%;
+        transform: translate(-50%, 0);
+        width: 100%;
+    }
+    #products>.container .products-right>.item>a dd {
+        position: absolute;
+        top: 15px;
+        left: 50%;
+        transform: translate(-50%, 0);
+        width: 100%;
+    }
+    #products>.container .products-right>.item>a li:last-child dd {
+        top: 5px;
+    }
+    #products>.container .products-right>.item>a .item-bottom li:first-child {
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+    #products>.container .products-right>.item>a .item-bottom li:first-child dt{
+        position: absolute;
+        left: 60px;
+        top: 5px;
+    }
+    #products>.container .products-right>.item>a .item-bottom li:first-child dd{
+        position: absolute;
+        left: 130px;
+        top: 20px;
+    }
+    #products>.container .products-right>.item:hover {
+        transform: none!important;
+        height: 130px;
+    }
+    #products>.container .products-right>.item {
+        float: left;
+        height: 130px;
+        background-color: #fff;
+        transition: none!important;
+    }
+    #footer {
+        background-color: #ddd;
+        color: #000;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+}
+#footer .mobile ul li{
+    float: left;
+    width: 33.333%;
+    text-align: center;
+    margin: 15px 0;
+    font-size: 16px;
+}
+#footer .indexIcon:after {
+    content: '\e987';
+}
+#footer .moneyIcon:after {
+    content: '\e989';
+}
+#footer .mineIcon:after {
+    content: '\e988';
+}
+#footer .menuSize {
+    padding: 10px 0;
+    margin: 0 auto;
+    font-family: 'MiFie-Website-Font';
+    font-size: 30px;
+}
+
+#products .mobile {
+    background-color: #fff;
+    margin-top: 30px;
+}
+#products .mobile .top{
+    overflow: hidden;
+}
+#products .mobile .top .title{
+    float: left;
+    width: 190px;
+    height: 70px;
+    background: url("../img/newHandIcon2.png") no-repeat left top;
+}
+#products .mobile .top .name{
+    margin-top: 6px;
+    float: left;
+}
+#products .mobile .top .name h3{
+    font-size: 32px;
+    font-weight: 800;
+    position: relative;
+}
+#products .mobile .top .name span{
+    font-size: 18px;
+    height: 30px;
+    line-height: 30px;
+    font-weight: 400;
+    width: 100px;
+    text-align: center;
+    position: absolute;
+    top: 6px;
+    left: 60%;
+    background-color: #0C6493;
+    border-radius: 15px;
+    color: #fff;
+}
+#products .mobile .top .name p{
+    font-size: 18px;
+    height: 30px;
+    line-height: 30px;
+}
+#products .mobile ul {
+    margin: 20px auto;
+}
+#products .mobile ul li {
+    float: left;
+    width: 33.333%;
+    text-align: center;
+}
+#products .mobile ul li+li{
+    border-left: 1px dashed #ccc;
+}
+#products .mobile ul li strong{
+    font-weight: 800;
+    font-size: 24px;
+    color: red;
+}
+#products .mobile ul li dd{
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 12px;
+}
+#products .mobile>p{
+    text-align: center;
+    margin-top: 110px;
+    padding-bottom: 20px;
+    font-size: 16px;
+}
